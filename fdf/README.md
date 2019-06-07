@@ -6,6 +6,6 @@
 Run `make`. An executable will compile. Runs on OS X.
 
 Run it with `./fdf test/map.fdf`.
-"Zoom in" "Zoom out" by scroll on mouse.
-"<" ">" -- Change altitude.
-NUM0-NUM9 -- Change colors theme.
+`scroll on mouse` -- Zoom in or out.
+`<` `>` -- Change altitude.
+`NUM0-NUM9` -- Change colors theme.
