@@ -6,7 +6,7 @@
 #    By: gwaymar- <gwaymar-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/01 17:42:35 by gwaymar-          #+#    #+#              #
-#    Updated: 2019/04/08 16:17:33 by gwaymar-         ###   ########.fr        #
+#    Updated: 2019/05/22 11:33:56 by gwaymar-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,9 @@ NAME := fdf
 
 # SRCS files
 SRCS_PATH := ./src
-SRCS_FILES := fdf.c draw.c main.c
+SRCS_FILES := fdf.c draw.c main.c reader.c error.c reader_fill.c colors.c map_params_fill.c \
+							map_params_2.c start_window.c line_draw.c colors_add.c projects.c coords.c \
+							mouse.c  clear_del.c
 SRCS := $(addprefix $(SRCS_PATH)/, $(SRCS_FILES))
 
 # OBJ files
@@ -24,7 +26,7 @@ OBJECTS := $(addprefix $(OBJECTS_PATH)/, $(OBJECTS_FILES))
 
 CC := gcc
 CFLAGS := -g
-#CCFLAGS := -Wall -Wextra -Werror
+#CFLAGS := -Wall -Wextra -Werror
 LDFLAGS := -lm
 
 # miniLibX

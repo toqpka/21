@@ -6,7 +6,7 @@
 /*   By: gwaymar- <gwaymar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/21 19:58:46 by gwaymar-          #+#    #+#             */
-/*   Updated: 2019/05/18 22:13:32 by gwaymar-         ###   ########.fr       */
+/*   Updated: 2019/05/22 05:21:23 by gwaymar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,6 +89,7 @@ t_list				*ft_lstnew(void const *content, size_t content_size);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_list				*ft_lst_last(t_list *begin_lst);
 int					get_next_line(const int fd, char **line);
+int					ft_f_grad(int first, int second, double p);
 void				ft_list_reverse(t_list **begin_list);
 
 #endif

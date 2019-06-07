@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gwaymar- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gwaymar- <gwaymar-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/05 21:16:33 by gwaymar-          #+#    #+#             */
-/*   Updated: 2018/12/11 13:37:38 by gwaymar-         ###   ########.fr       */
+/*   Updated: 2019/05/22 11:56:48 by gwaymar-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ static char		**ft_free(char **split, int *k)
 		free(split[*k]);
 		*k = *k - 1;
 	}
+	free(split);
 	return (NULL);
 }
 
