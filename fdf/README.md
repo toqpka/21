@@ -1,6 +1,6 @@
 # FDF @ 21
 
-![screenshot](/21/fdf/screens/screen.png?raw=true)
+![screenshot](21/blob/master/fdf/screens/screen.png?raw=true)
 
 ## Compiling and running
 Run `make`. An executable will compile. Runs on OS X.
