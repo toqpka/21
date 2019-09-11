@@ -6,7 +6,7 @@
 ## Compiling and running
 Run `make`. An executable will compile. Runs on OS X.
 
-Run it with choose one`./fractol [mandelbrot / julia / duobrot / triobrot / ship]`. 
+Run it with choose one`./fractol [mandelbrot / julia / duobrot / triobrot / ship]`. <br>
 Example`./fractol mandelbrot`. <br>
-Or`./fractol julia`. /n
+Or`./fractol julia`. <br>
 `NUM7` -- Help_menu.
