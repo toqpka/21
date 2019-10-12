@@ -1,6 +1,6 @@
 # FDF @ 21
 
-![screenshot](screen.png?raw=true)
+![screenshot](screens/screen.png?raw=true)
 
 ## Compiling and running
 Run `make`. An executable will compile. Runs on OS X.
